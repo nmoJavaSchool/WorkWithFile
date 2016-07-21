@@ -21,7 +21,7 @@ public class Main {
         }
         ArrayList<String> ColString = new ArrayList<>();
         for (String line : lines) {
-            String[] str = (line.split(" "));
+            String[] str = (line.split("[ \\,\\.]"));
             for (int i = 0; i < str.length; i++){
                 ColString.add(str[i]);
             }
